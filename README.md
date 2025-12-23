@@ -40,3 +40,5 @@ npm install --save-dev tw-animate-css
 
 React Bits Ray Lights
 npx shadcn@latest add https://reactbits.dev/r/LightRays-JS-CSS
+
+git checkout -b implement-posthog
