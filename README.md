@@ -35,8 +35,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-# Setup
+# Setup - Tailwind Animations
 npm install --save-dev tw-animate-css
 
-React Bits Ray Lights
+# React Bits Ray Lights - animated background
 npx shadcn@latest add https://reactbits.dev/r/LightRays-JS-CSS
+
+# Git setup - code storage
+git checkout -b implement-posthog
+
+# PostHog setup - analytics integration
+npx -y @posthog/wizard@latest --eu
+
+# Setup MongoDB
