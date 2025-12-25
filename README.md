@@ -53,3 +53,5 @@ git pull
 npx -y @posthog/wizard@latest --eu
 
 #Setup MongoDB
+npm install mongoose
+
