@@ -38,5 +38,20 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # Setup
 npm install --save-dev tw-animate-css
 
-React Bits Ray Lights
+# React Bits Ray Lights
 npx shadcn@latest add https://reactbits.dev/r/LightRays-JS-CSS
+
+# Git setup - code storage
+git checkout -b implement-posthog
+git push --set-upstream origin implement-posthog
+git checkout main
+git pull
+
+
+
+# PostHog setup - analytics integration
+npx -y @posthog/wizard@latest --eu
+
+#Setup MongoDB
+npm install mongoose
+
